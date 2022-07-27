@@ -1,0 +1,22 @@
+.ingredient .increment-button {
+  border: 1px solid var(--secundary-yellow-color);
+  border-radius: 4px;
+
+  display: flex;
+  aling-items: center;
+  justify-content: space-between;
+
+  width: 6rem;
+  padding: 0.5rem;
+
+  position: absolute;
+  top: 1.5rem;
+  right: 0;
+
+  cursor: pointer;
+}
+
+.ingredient .increment-button .number {
+  font-size: 0.875rem;
+  margin-inline: 0.5rem;
+}

@@ -1,0 +1,16 @@
+.ingredient {
+  position: relative;
+}
+
+.ingredient .ingredient-name h2 {
+  font-weight: 500;
+  font-size: 0.875rem;
+
+  margin-bottom: 3rem;
+}
+
+.ingredient .ingredient-price span {
+  color: var(--secundary-yellow-color);
+
+  font-size: 0.875rem;
+}

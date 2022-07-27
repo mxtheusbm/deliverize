@@ -1,0 +1,29 @@
+.container {
+  background: var(--background-gray-color);
+  width: 480px;
+  height: 100vh;
+
+  position: fixed;
+  top: 1px;
+  right: 0;
+
+  margin-top: var(--header-height);
+  padding: 1rem;
+}
+
+.container .close-button {
+  cursor: pointer;
+}
+
+.container .cart-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 8rem;
+}
+
+.container .cart-empty img {
+  height: 248px;
+}
