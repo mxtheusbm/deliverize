@@ -42,7 +42,7 @@ export function Header() {
             <MagnifyingGlass color='#ed3237' className='icon-search' />
           </form>
 
-          <a href="#" className="login-button">
+          <a href="/Login" className="login-button">
             <UserCircle size={24} />
             Entrar
           </a>
